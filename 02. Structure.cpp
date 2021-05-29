@@ -11,7 +11,7 @@ struct Rectangle{
 };
 
 int main(){
-	struct Rectangle r1 = {5,6}; // This is the declaration and initializatino of r1 structure
+	struct Rectangle r1 = {5,6}; // This is the declaration and initialization of r1 structure
 	r1.length = 3; // change the value of length
 	cout<<sizeof(r1)<<endl;
 	cout<<r1.breadth<<endl;
