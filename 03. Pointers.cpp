@@ -47,7 +47,7 @@ int main(){
 	int *F;
     F = new int[5];						//Allocate dynamic memory in Heap,C++ language
     delete [] F; 						//C++ Deallocating memory which was allready allocated 
-    free(F);  							 //C
+    free(F);  							//C
     
     // pointer takes same amount of memory whatever the pointer is that 
     // Eg: int , char, float , double , struct 8bytes in latest compilers
